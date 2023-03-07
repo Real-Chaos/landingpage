@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------- header ------------------ */
+
+.header {
+    background: #1F2937;
+    color: #F9FAF8;
+}
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header .nav .logo {
+    font-size: 24px;
+}
+
+.header .nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+.header .nav ul li{
+    list-style-type: none;
+    padding-bottom: 3px ;
+}
+.header .nav ul li:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+/* ---------------------- hero ----------------------- */
+
+.header .hero {
+    display: flex;
+    padding: 3% 10%;
+    gap: 5%;
+    align-items: center;
+}
+
+.header .hero img {
+    width: 100%;
+}
+
+.header .hero .text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header .hero .text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    line-height: 30 px;
+}
+
+.header .hero .text p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.header .hero button {
+    background: #3882f6;
+    color: WHITE;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: bolder;
+}
+
+/*-------------------- random info ---------------*/
+
+.random-info-section  {
+    padding: 5% 10%;
+}
+
+.random-info-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.random-info-section .info-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 4%;
+}
+
+.random-info-section .info-boxes .info-box {
+    text-align: center;
+}
+
+.random-info-section .info-boxes .info-box p {
+    width: 90%;
+}
+
+.random-info-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* -------------------- testimony  --------------- */
+
+.homepage .testimony {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 5% 20%;
+}
+
+.homepage .testimony .h4 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+/* --------------------------- call to action ---------- */
+
+.homepage .call-to-action {
+    padding: 5% 10%;
+}
+
+.homepage .call-to-action .action-box {
+    background-color: #3882f6;
+    padding: 5% 10%;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.homepage .call-to-action .action-box button {
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-weight: bolder;
+    background: none;
+    color: white;
+    
+}
+
+/* ------------------- footer ---------------------- */
+
+.homepage .footer {
+    background-color: #1F2937;
+    padding: 2% 5%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
